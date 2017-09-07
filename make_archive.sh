@@ -87,4 +87,4 @@ ERROR_LOG="$(mktemp)"
 
 __main 2> ${ERROR_LOG}
 
-echo "Error log: ${ERROR_LOG}"
+echo -e "\e[31mError log: ${ERROR_LOG}\e[0m"
