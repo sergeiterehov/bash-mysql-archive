@@ -20,7 +20,7 @@ function __make_archive
         LIMIT_BOTTOM=0
     fi
 
-    SQL_WHERE="id > ${LIMIT_BOTTOM} and id < ${LIMIT_TOP} and finished_at is not null"
+    SQL_WHERE="id > ${LIMIT_BOTTOM} and id < ${LIMIT_TOP}"
     SQL="${SQL_WHERE} limit ${PART_LIMIT}"
 
     DUMP_COUNT="$(

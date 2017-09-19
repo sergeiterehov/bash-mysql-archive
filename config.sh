@@ -11,7 +11,7 @@ DB_DIST_PASSWORD="password"
 DB_DIST_DATABASE=database
 
 # Условие выбора верхней границы дампа
-LAST_CREATED_AT="now() - interval 1 day"
+LAST_CREATED_AT="now() - interval 14 day"
 
 # Максимальный размер части дампа
 PART_LIMIT=10000
